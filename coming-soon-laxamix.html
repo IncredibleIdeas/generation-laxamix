@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation Garlic Laxamix - Coming Soon</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+            color: #333;
+        }
+        
+        .brand-font {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        
+        .header-bg {
+            background: linear-gradient(135deg, #4ade80 0%, #22c55e 50%, #16a34a 100%);
+        }
+        
+        .countdown-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .product-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .herbal-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%2322c55e' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="herbal-pattern">
+    <!-- Header Section -->
+    <header class="header-bg text-white py-6 md:py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-6 md:mb-0">
+                    <div class="bg-white p-3 rounded-full mr-4">
+                        <i class="fas fa-leaf text-3xl text-green-600"></i>
+                    </div>
+                    <div>
+                        <h1 class="brand-font text-2xl md:text-3xl">Generation Garlic Laxamix</h1>
+                        <p class="text-green-100 text-sm md:text-base">Freeson Generation Herbal Research Center</p>
+                    </div>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-green-100 mb-2">A revolutionary herbal formulation</p>
+                    <div class="flex space-x-2 justify-center md:justify-end">
+                        <span class="bg-white text-green-700 px-3 py-1 rounded-full text-xs font-medium">100% Natural</span>
+                        <span class="bg-white text-green-700 px-3 py-1 rounded-full text-xs font-medium">Scientifically Tested</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-12 md:py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <!-- Hero Section -->
+                <section class="mb-16">
+                    <div class="flex flex-col lg:flex-row items-center">
+                        <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-12">
+                            <div class="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full mb-6">
+                                <i class="fas fa-clock mr-2"></i> Coming Soon
+                            </div>
+                            <h2 class="brand-font text-4xl md:text-5xl text-gray-800 mb-6">Revolutionizing Natural Health Solutions</h2>
+                            <p class="text-gray-600 text-lg mb-8">
+                                <span class="font-bold text-green-700">Generation Garlic Laxamix</span> is a groundbreaking herbal formulation developed through extensive research at Freeson Generation Herbal Research Center. Combining traditional wisdom with modern science, this product offers a natural approach to wellness.
+                            </p>
+                            <div class="flex flex-wrap gap-4 mb-8">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                                    <span class="text-gray-700">100% Natural Ingredients</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                                    <span class="text-gray-700">Research-Backed Formula</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                                    <span class="text-gray-700">Quality Assured</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="lg:w-1/2">
+                            <div class="product-card bg-white rounded-2xl p-8 border border-green-100">
+                                <div class="flex justify-center mb-6">
+                                    <div class="relative">
+                                        <div class="w-48 h-48 bg-gradient-to-r from-green-100 to-emerald-100 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-capsules text-6xl text-green-700"></i>
+                                        </div>
+                                        <div class="absolute -top-2 -right-2 bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center">
+                                            <span class="brand-font text-sm">NEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="brand-font text-2xl text-gray-800 mb-4">Generation Garlic Laxamix</h3>
+                                    <p class="text-gray-600 mb-6">A proprietary blend of garlic extract and natural laxatives designed to support digestive health and overall wellness.</p>
+                                    
+                                    <div class="mb-6">
+                                        <h4 class="font-bold text-gray-700 mb-3">Key Benefits:</h4>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                                            <div class="flex items-center">
+                                                <i class="fas fa-heartbeat text-green-600 mr-2"></i>
+                                                <span>Supports cardiovascular health</span>
+                                            </div>
+                                            <div class="flex items-center">
+                                                <i class="fas fa-digestion text-green-600 mr-2"></i>
+                                                <span>Aids digestive function</span>
+                                            </div>
+                                            <div class="flex items-center">
+                                                <i class="fas fa-shield-alt text-green-600 mr-2"></i>
+                                                <span>Boosts immune system</span>
+                                            </div>
+                                            <div class="flex items-center">
+                                                <i class="fas fa-leaf text-green-600 mr-2"></i>
+                                                <span>Natural detoxification</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Countdown Timer -->
+                <section class="mb-16">
+                    <div class="text-center mb-10">
+                        <h2 class="brand-font text-3xl md:text-4xl text-gray-800 mb-4">Launching Soon</h2>
+                        <p class="text-gray-600 max-w-2xl mx-auto">Our groundbreaking herbal formulation will be available in stores and online. Be the first to experience the benefits of Generation Garlic Laxamix.</p>
+                    </div>
+                    
+                    <div class="max-w-3xl mx-auto">
+                        <div class="countdown-box rounded-2xl p-8 md:p-10">
+                            <div id="countdown" class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                                <!-- Countdown items will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Features Section -->
+                <section class="mb-16">
+                    <h2 class="brand-font text-3xl text-center text-gray-800 mb-12">Why Choose Generation Garlic Laxamix?</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-8 rounded-xl border border-green-50 shadow-sm">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                                <i class="fas fa-flask text-2xl text-green-700"></i>
+                            </div>
+                            <h3 class="brand-font text-xl text-gray-800 mb-4">Scientifically Formulated</h3>
+                            <p class="text-gray-600">Developed by researchers at Freeson Generation Herbal Research Center using evidence-based approaches and rigorous testing.</p>
+                        </div>
+                        
+                        <div class="bg-white p-8 rounded-xl border border-green-50 shadow-sm">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                                <i class="fas fa-seedling text-2xl text-green-700"></i>
+                            </div>
+                            <h3 class="brand-font text-xl text-gray-800 mb-4">100% Natural Ingredients</h3>
+                            <p class="text-gray-600">Contains only natural, plant-based ingredients with no artificial additives, preservatives, or synthetic chemicals.</p>
+                        </div>
+                        
+                        <div class="bg-white p-8 rounded-xl border border-green-50 shadow-sm">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                                <i class="fas fa-award text-2xl text-green-700"></i>
+                            </div>
+                            <h3 class="brand-font text-xl text-gray-800 mb-4">Quality Guaranteed</h3>
+                            <p class="text-gray-600">Every batch undergoes strict quality control procedures to ensure purity, potency, and safety for consumers.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Notification Form -->
+                <section class="max-w-2xl mx-auto">
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 md:p-10 border border-green-100">
+                        <h2 class="brand-font text-3xl text-center text-gray-800 mb-6">Get Notified When We Launch</h2>
+                        <p class="text-gray-600 text-center mb-8">Sign up to receive exclusive updates, early access offers, and information about Generation Garlic Laxamix.</p>
+                        
+                        <form id="notification-form" class="space-y-4">
+                            <div class="flex flex-col md:flex-row gap-4">
+                                <div class="flex-1">
+                                    <input type="text" id="name" placeholder="Your Name" class="w-full px-5 py-3 rounded-lg border border-green-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                </div>
+                                <div class="flex-1">
+                                    <input type="email" id="email" placeholder="Your Email Address" required class="w-full px-5 py-3 rounded-lg border border-green-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center">
+                                    <i class="fas fa-paper-plane mr-2"></i> Notify Me on Launch
+                                </button>
+                            </div>
+                            <p class="text-green-800 text-center text-sm mt-4" id="form-message"></p>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-leaf text-2xl text-green-400 mr-3"></i>
+                        <h3 class="brand-font text-xl">Generation Garlic Laxamix</h3>
+                    </div>
+                    <p class="text-gray-400">A product of Freeson Generation Herbal Research Center</p>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400 mb-4">&copy; <span id="current-year"></span> Freeson Generation Herbal Research Center. All rights reserved.</p>
+                    <div class="flex justify-center md:justify-end space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-green-400 transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-green-400 transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-green-400 transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-green-400 transition duration-300">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Countdown Timer
+        function updateCountdown() {
+            // Set launch date (3 months from now)
+            const launchDate = new Date();
+            launchDate.setMonth(launchDate.getMonth() + 3);
+            
+            const now = new Date().getTime();
+            const timeLeft = launchDate - now;
+            
+            // Calculate days, hours, minutes, seconds
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+            
+            // Display countdown
+            const countdownElement = document.getElementById('countdown');
+            
+            if (countdownElement) {
+                countdownElement.innerHTML = `
+                    <div class="text-center">
+                        <div class="bg-white text-green-700 rounded-xl py-6 mb-2">
+                            <div class="text-4xl md:text-5xl font-bold">${days}</div>
+                        </div>
+                        <div class="text-white font-medium">Days</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white text-green-700 rounded-xl py-6 mb-2">
+                            <div class="text-4xl md:text-5xl font-bold">${hours}</div>
+                        </div>
+                        <div class="text-white font-medium">Hours</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white text-green-700 rounded-xl py-6 mb-2">
+                            <div class="text-4xl md:text-5xl font-bold">${minutes}</div>
+                        </div>
+                        <div class="text-white font-medium">Minutes</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white text-green-700 rounded-xl py-6 mb-2">
+                            <div class="text-4xl md:text-5xl font-bold">${seconds}</div>
+                        </div>
+                        <div class="text-white font-medium">Seconds</div>
+                    </div>
+                `;
+            }
+            
+            // If countdown is finished
+            if (timeLeft < 0) {
+                clearInterval(countdownTimer);
+                countdownElement.innerHTML = '<div class="col-span-4 text-center text-white text-2xl py-8">Generation Garlic Laxamix is now available!</div>';
+            }
+        }
+        
+        // Initialize countdown
+        let countdownTimer = setInterval(updateCountdown, 1000);
+        updateCountdown(); // Run immediately to avoid delay
+        
+        // Notification Form Submission
+        document.getElementById('notification-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const formMessage = document.getElementById('form-message');
+            
+            // Simple validation
+            if (!email) {
+                formMessage.textContent = 'Please enter your email address.';
+                formMessage.style.color = '#ef4444';
+                return;
+            }
+            
+            // Simulate form submission
+            formMessage.textContent = 'Thank you! We\'ll notify you when Generation Garlic Laxamix launches.';
+            formMessage.style.color = '#16a34a';
+            
+            // Reset form
+            document.getElementById('notification-form').reset();
+            
+            // Clear message after 5 seconds
+            setTimeout(() => {
+                formMessage.textContent = '';
+            }, 5000);
+        });
+        
+        // Add some interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effect to product card
+            const productCard = document.querySelector('.product-card');
+            if (productCard) {
+                productCard.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                });
+                
+                productCard.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            }
+            
+            // Animate countdown on load
+            const countdownItems = document.querySelectorAll('#countdown > div');
+            countdownItems.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+    </script>
+</body>
+</html>
